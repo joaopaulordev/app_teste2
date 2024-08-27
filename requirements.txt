@@ -1,4 +1,4 @@
-gunicorn=19
+gunicorn=19.7.1
 setuptools==73.0.1
 asgiref==3.8.1
 Django==5.0.7
