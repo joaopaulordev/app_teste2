@@ -98,8 +98,7 @@ WSGI_APPLICATION = 'app_teste.wsgi.application'
 # }
 
 # Replace the SQLite DATABASES configuration with PostgreSQL:
-DATABASES = {
-    
+DATABASES = {    
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
         default='postgresql://db_teste_p67p_user:SYpZUWN4jA51P8FHNWJx4Q6JvUP1gX2c@dpg-cr8tj7qj1k6c73f900kg-a/db_teste_p67p',        
